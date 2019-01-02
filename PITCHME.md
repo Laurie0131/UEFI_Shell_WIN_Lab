@@ -130,28 +130,10 @@ Note:
 @snap[north-west span-30]
 <br>
 <br>
-<br>
-
-<pre>
-```
- help 
- mm
- mem
- memmap
- drivers
- devices
- devtree
- dh
- Load
- dmpstore
- stall
-
-```
-</pre>
-
+@box[bg-black text-white  rounded](<p align="left"> `help`<br>  `mm`<br> `mem`<br> `memmap`<br> `drivers`<br> `devices`<br> `devtree`<br> `dh`<br> `Load`<br> `dmpstore`<br> `stall`<br></p>)
 @snapend
 
-@snap[midpoint span-45]
+@snap[east span-45]
 @box[bg-royal text-white  rounded](<b>"-b" is the command line parameter for breaking after each page.</b><br><br>)
 @snapend
 
