@@ -127,13 +127,11 @@ Note:
 ---
 @title[Common Shell Commands ]
 ### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
-@snap[north-west span-30]
-<br>
-<br>
-@box[bg-black text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em" > `help`<br>  `mm`<br> `mem`<br> `memmap`<br> `drivers`<br> `devices`<br> `devtree`<br> `dh`<br> `Load`<br> `dmpstore`<br> `stall`<br></span></p>)
+@snap[west span-30]
+@box[bg-black text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em" >&nbsp; `help`<br>&nbsp;  `mm`<br>&nbsp; `mem`<br>&nbsp; `memmap`<br>&nbsp; `drivers`<br>&nbsp; `devices`<br>&nbsp; `devtree`<br>&nbsp; `dh`<br>&nbsp; `Load`<br>&nbsp; `dmpstore`<br>&nbsp; `stall`<br></span></p>)
 @snapend
 
-@snap[east span-45]
+@snap[east span-55]
 @box[bg-royal text-white  rounded](<b>"-b" is the command line parameter for breaking after each page.</b><br><br>)
 @snapend
 
