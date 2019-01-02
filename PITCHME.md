@@ -142,17 +142,6 @@ Next for this lab there are a few shell commands that will help us with debuggin
 We are not going to go all were these in detail but just to make you aware of the shell commands.
 
 
----?image=/assets/images/slides/Slide7.JPG
-@title[Common Shell Commands ]
-### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
-
-
-Note:
-
-Next for this lab there are a few shell commands that will help us with debugging. For example if you are writing a driver, you would want to get familiar with these shell commands. Each of these commands will have a help option to give you further information about these commands.
-
-We are not going to go all were these in detail but just to make you aware of the shell commands.
-
 
 ---?image=/assets/images/slides/Slide8.JPG
 @title[Shell Help Command ]
