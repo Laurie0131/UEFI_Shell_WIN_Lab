@@ -130,7 +130,7 @@ Note:
 @snap[north-west span-30]
 <br>
 <br>
-@box[bg-black text-white  rounded](<p align="left"> `help`<br>  `mm`<br> `mem`<br> `memmap`<br> `drivers`<br> `devices`<br> `devtree`<br> `dh`<br> `Load`<br> `dmpstore`<br> `stall`<br></p>)
+@box[bg-black text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em" > `help`<br>  `mm`<br> `mem`<br> `memmap`<br> `drivers`<br> `devices`<br> `devtree`<br> `dh`<br> `Load`<br> `dmpstore`<br> `stall`<br></span></p>)
 @snapend
 
 @snap[east span-45]
