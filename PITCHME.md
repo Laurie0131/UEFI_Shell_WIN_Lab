@@ -1,6 +1,8 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build Lab]
-<br><br><br><br><br>
+<br><br><br>
+<span style="font-size:0.75em" >This slide deck has moved to: https://gitpitch.com/tianocore-training/UEFI_Shell_WIN_Lab/master#/</span>
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### UEFI Shell Lab - Windows NT32
@@ -62,16 +64,21 @@ Note:
 ---?image=/assets/images/slides/Slide4.JPG
 @title[Running Nt32]
 <p align="right"><span class="gold" >Invoke NT32 Emulation</span></p>
+@snap[north-west span-35]
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" ></span>
+From the VS command Prompt
+<pre>
+```
+ CD \FW\edk2
+ C:\FW\edk2> edksetup
+ C:\FW\edk2> Build 
+ C:\FW\edk2> Build Run
+```
+</pre>
+
+@snapend
 
 
 Note:
