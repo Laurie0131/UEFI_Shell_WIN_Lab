@@ -63,7 +63,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide4.JPG
 @title[Running Nt32]
-<p align="right"><span class="gold" >Invoke NT32 Emulation</span></p>
+<p align="right"><span class="gold" ><b>Invoke NT32 Emulation</b></span></p>
 @snap[north-west span-35]
 <br>
 <br>
@@ -96,7 +96,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide5.JPG
 @title[Nt32 boot to UEFI Shell]
-<p align="right"><span class="gold" >Nt32 boot to UEFI Shell</span></p>
+<p align="right"><span class="gold" ><b>Nt32 boot to UEFI Shell</b></span></p>
 
 <br>
 <br>
@@ -122,6 +122,44 @@ Note:
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Commands </span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands from the Command Line Interface</span>
+
+
+---
+@title[Common Shell Commands ]
+### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
+@snap[north-west span-30]
+<br>
+<br>
+<br>
+
+<pre>
+```
+ help 
+ mm
+ mem
+ memmap
+ drivers
+ devices
+ devtree
+ dh
+ Load
+ dmpstore
+ stall
+
+```
+</pre>
+
+@snapend
+
+@snap[midpoint span-45]
+@box[bg-royal text-white  rounded](<b>"-b" is the command line parameter for breaking after each page.</b><br><br>)
+@snapend
+
+Note:
+
+Next for this lab there are a few shell commands that will help us with debugging. For example if you are writing a driver, you would want to get familiar with these shell commands. Each of these commands will have a help option to give you further information about these commands.
+
+We are not going to go all were these in detail but just to make you aware of the shell commands.
 
 
 ---?image=/assets/images/slides/Slide7.JPG
