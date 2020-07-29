@@ -758,7 +758,7 @@ Where *nn* is :
 
 
 ---
-## Slide  1  @title[UEFI Shell Script Example]
+## Slide  24  @title[UEFI Shell Script Example]
 <br>
 ### UEFI Shell Script Example 
 
