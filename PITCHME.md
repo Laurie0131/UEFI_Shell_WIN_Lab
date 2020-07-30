@@ -236,6 +236,12 @@ Do <font color="red"><b>not</b></font> try (below) in Win Emulator. Because the 
 </span></p>
 @snapend
 
+@snap[south-east span-40]
+<font color="red">&#9747;</font>
+<p style="line-height:10%" align="left" ><span style="font-size:0.7em;" >
+<br><br><br>
+</span></p>
+@snapend
 
 Note:
 
