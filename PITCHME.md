@@ -5,14 +5,14 @@
 <br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
-#### UEFI Shell Lab - Windows NT32
+#### UEFI Shell Lab w/ Windows Emulation
 
 <br>
 <span style="font-size:0.75em" ><a href='http://www.tianocore.org'>tianocore.org</a></span>
 Note:
   PITCHME.md for UEFI / EDK II Training  UEFI Shell Windows Lab
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2020, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -48,73 +48,68 @@ Note:
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
 
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (Nt32 Emulation)</span><br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (Windows Emulation)</span><br><br>
  @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Scripts</span> <br>
  
 
 ---?image=assets/images/binary-strings-black2.jpg
-@title[UEFI Shell Lab NT32 Section]
+@title[UEFI Shell Lab with Win Emulation Section]
 <br><br><br><br><br>
-## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Nt32</span>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab with Win Emulation</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 
 
 ---?image=/assets/images/slides/Slide4.JPG
-@title[Running Nt32]
-<p align="right"><span class="gold" ><b>Invoke NT32 Emulation</b></span></p>
-@snap[north-west span-35]
+@title[Invoke Win Emulation ]
+<p align="right"><span class="gold" ><b>Invoke Win Emulation</b></span></p>
+@snap[north-west span-45 ]
 <br>
 <br>
 <br>
-From the VS command Prompt
-<pre>
-```
- CD \FW\edk2
- C:\FW\edk2> edksetup
- C:\FW\edk2> Build 
- C:\FW\edk2> Build Run
-```
-</pre>
-
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
+
+<br>
+<span style="font-size:0.9em" >From the VS command Prompt</span>
+
+
+@snap[north-west span-44 ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>&nbsp;&nbsp;
+ CD C:\FW\edk2-ws<br>&nbsp;&nbsp;
+# set up PACKAGES_PATH <br>&nbsp;&nbsp;
+ set WORKSPACE=%CD% <br>&nbsp;&nbsp;
+ set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc <br>&nbsp;&nbsp;
+ cd edk2 <br>&nbsp;&nbsp;
+ edksetup Rebuild <br>&nbsp;&nbsp;
+ Build -a X64 <br>&nbsp;&nbsp;
+ RunEmulator.bat <br>&nbsp;&nbsp;
+</span></p>
+@snapend
+
 
 
 Note:
 - From the VS  command prompt
 <pre>
- CD \FW\edk2
- C:\FW\edk2> edksetup
- C:\FW\edk2> Build 
- C:\FW\edk2> Build Run
+CD C:\FW\edk2-ws
+# set up PACKAGES_PATH 
+$> set WORKSPACE=%CD%
+$> set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc
+$> cd edk2
+$> edksetup Rebuild
+$> Build -a X64
+$> RunEmulator.bat
 </pre>
 
 
 
-
-
----?image=/assets/images/slides/Slide5.JPG
-@title[Nt32 boot to UEFI Shell]
-<p align="right"><span class="gold" ><b>Nt32 boot to UEFI Shell</b></span></p>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<span style="font-size:0.5em" ></span>
-
-
-Note:
 
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -126,9 +121,13 @@ Note:
 
 ---
 @title[Common Shell Commands ]
-### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Common Shell Commands For Debugging  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
 @snap[west span-30]
-@box[bg-grey-05 text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em" >&nbsp; `help`<br>&nbsp;  `mm`<br>&nbsp; `mem`<br>&nbsp; `memmap`<br>&nbsp; `drivers`<br>&nbsp; `devices`<br>&nbsp; `devtree`<br>&nbsp; `dh`<br>&nbsp; `Load`<br>&nbsp; `dmpstore`<br>&nbsp; `stall`</span></p>)
+<br>
+<br>
+@box[bg-grey-05 text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em; font-family:Consolas;" >&nbsp; help<br>&nbsp;  mm<br>&nbsp; mem<br>&nbsp; memmap<br>&nbsp; drivers<br>&nbsp; devices<br>&nbsp; devtree<br>&nbsp; dh<br>&nbsp; Load<br>&nbsp; dmpstore<br>&nbsp; stall<br>&nbsp;</span></p>)
 @snapend
 
 @snap[east span-65]
@@ -143,9 +142,15 @@ We are not going to go all were these in detail but just to make you aware of th
 
 
 
----?image=/assets/images/slides/Slide8.JPG
+---?image=/assets/images/slides/Slide7.JPG
 @title[Shell Help Command ]
-### <p align="right"><span class="gold" >Shell Help</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell Help  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+<span style="background-color: #000000"><font color="#FFFF00">&nbsp;
+<font face="Consolas">Shell&gt;</font></font><font color="#FFFFFF"><font face="Consolas"> 
+help -b</font>&nbsp; </font></span>
+
 
 
 Note:
