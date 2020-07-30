@@ -272,8 +272,8 @@ Displays the contents of the system or device memory without arguments, displays
 @snapend
 
 
-@snap[east span-30]
-<p align="left"><span style="font-size:0.9em;" >
+@snap[east span-28]
+<p style="line-height:65%" align="left" ><span style="font-size:0.7em;" >
 <font color="yellow">UEFI System  Table Pointer</font>
 </span></p>
 @snapend
