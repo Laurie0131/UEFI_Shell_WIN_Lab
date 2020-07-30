@@ -222,16 +222,16 @@ Note:
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>mm **<br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-40]
+@snap[north-east span-55]
 <br>
 <br>
 <p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>&nbsp;
 **Pick a location from the MemMap command on Previous slide<br><br>
 <span style="background-color: #000000">
-&nbsp;&nbsp;<font face="Consolas">@size[.8em]( BS_Data    00000117FC9F5000-00000117FCA1CFFF 0000000000000028 000000000000000F)</font> &nbsp;&nbsp; </span><br>
+&nbsp;&nbsp;<font face="Consolas">@size[.5em]( BS_Data    00000117FC9F5000-00000117FCA1CFFF 0000000000000028 000000000000000F)</font> &nbsp;&nbsp; </span><br>
 MM in can display / modify any location <br><br>
 Do <font color="red">**not**</font> try in Win Emulator. Because the emulator will crash.<br>
-<span style="background-color: #000000"><font face="Consolas"><font color="#FFFF00">&nbsp;&nbsp;Shell&gt;</font> mm 0000  </font>&nbsp;&nbsp; </span>
+<span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="#FFFF00">&nbsp;&nbsp;Shell&gt;</font> mm 0000)  </font>&nbsp;&nbsp; </span>
 </span></p>
 @snapend
 
