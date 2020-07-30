@@ -64,13 +64,13 @@ Note:
 ---?image=/assets/images/slides/Slide4.JPG
 @title[Invoke Win Emulation ]
 <p align="right"><span class="gold" ><b>Invoke Win Emulation</b></span></p>
-@snap[north-west span-55 ]
+@snap[north-west span-53 ]
 <br>
 <br>
 <br>
 <br>
 <br>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 <span style="font-size:0.9em" >From the VS command Prompt</span>
