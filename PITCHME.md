@@ -69,10 +69,10 @@ Note:
 <br>
 <br>
 <br>
+<br>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
-<br>
 <span style="font-size:0.9em" >From the VS command Prompt</span>
 
 
@@ -83,7 +83,7 @@ Note:
 <br>
 <p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>&nbsp;&nbsp;
  CD C:\FW\edk2-ws<br>&nbsp;&nbsp;
-# set up PACKAGES_PATH <br>&nbsp;&nbsp;
+ &num;set up PACKAGES_PATH <br>&nbsp;&nbsp;
  set WORKSPACE=%CD% <br>&nbsp;&nbsp;
  set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc <br>&nbsp;&nbsp;
  cd edk2 <br>&nbsp;&nbsp;
@@ -200,7 +200,7 @@ Note:
 @snap[north-west span-40]
 <br>
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br><br>&nbsp;
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br><br>
 Help for "mm" command shows options for different types of memory and I/O that can be modified
 </span></p>
 @snapend
