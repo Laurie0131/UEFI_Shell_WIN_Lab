@@ -76,20 +76,20 @@ Note:
 <span style="font-size:0.9em" >From the VS command Prompt</span>
 
 
-@snap[north-west span-50 ]
+@snap[north-west span-52 ]
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:45%" align="left" ><span style="font-size:0.45em; font-family:Consolas;"><br>&nbsp;&nbsp;
- CD C:\FW\edk2-ws<br>&nbsp;&nbsp;
- <font color="green"> &num;set up PACKAGES_PATH </font><br>&nbsp;&nbsp;
- set WORKSPACE=%CD% <br>&nbsp;&nbsp;
- set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc <br>&nbsp;&nbsp;
- cd edk2 <br>&nbsp;&nbsp;
- edksetup Rebuild <br>&nbsp;&nbsp;
- Build -a X64 <br>&nbsp;&nbsp;
- RunEmulator.bat <br>&nbsp;&nbsp;
+<p style="line-height:40%" align="left" ><span style="font-size:0.4em; font-family:Consolas;"><br>&nbsp;&nbsp;
+ &gt; CD C:\FW\edk2-ws<br>&nbsp;&nbsp;
+ <font color="#A8ff60"> &num; set up PACKAGES_PATH </font><br>&nbsp;&nbsp;
+ &gt; set WORKSPACE=%CD% <br>&nbsp;&nbsp;
+ &gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc <br>&nbsp;&nbsp;
+ &gt; cd edk2 <br>&nbsp;&nbsp;
+ &gt; edksetup Rebuild <br>&nbsp;&nbsp;
+ &gt; Build -a X64 <br>&nbsp;&nbsp;
+ &gt; RunEmulator.bat <br>&nbsp;&nbsp;
 </span></p>
 @snapend
 
