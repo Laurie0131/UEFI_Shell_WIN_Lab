@@ -650,10 +650,22 @@ walk through the script calling the second script
 - for loop
   - %a counting down...
   
----?image=/assets/images/slides/Slide26.JPG
+---?image=/assets/images/slides/Slide25.JPG
 @title[Run UEFI Shell Scripts ]
-### <p align="right"><span class="gold" >Run UEFI Shell Scripts</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Run UEFI Shell Scripts </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
 
+@snap[north-west span-55]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+From the VS command Prompt<br>
+<span style="background-color: #000000"><font face="Consolas">@size[.67em](C:\\FW\\edk2&gt;&nbsp;RunEmulator.bat)  </font>&nbsp;&nbsp; </span>
+<br>
+At the Shell prompt Type:
+</span></p>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>Script1<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font><br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>Edkit Script1.nsh<br><br>&nbsp;</span></p>)
+@snapend
 
 
 Note:
