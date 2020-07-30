@@ -165,7 +165,7 @@ To exit, this emulation simply type: “reset”
 
 ---?image=/assets/images/slides/Slide8.JPG
 @title[Shell MemMap Command help ]
-<p align="right"><span class="gold" >@size[1.1em](<b>Shell "memmap"  </b>)</span><br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`memmap`"  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 
