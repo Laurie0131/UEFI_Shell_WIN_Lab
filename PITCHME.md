@@ -568,7 +568,7 @@ In the shell, type HelloScript for the following result:
 
 
 
-@snap[north-west span-33]
+@snap[north span-33]
 <br>
 <br>
 <br>
@@ -581,9 +581,10 @@ In the shell, type HelloScript for the following result:
 @snap[south-west span-100]
 <br>
 <p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
-Close the Win emulation, type: "reset"<br>
+Close the Win emulation, type: "reset"<br><br>
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:/&gt;&nbsp;</font> reset)  </font>&nbsp;&nbsp; </span>
 </span></p>
+<br>
 <br>
 <br>
 @snapend
