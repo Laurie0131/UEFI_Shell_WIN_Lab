@@ -266,7 +266,7 @@ Because the Emulator is a Windows Application and trying to access location 00 w
 @snap[north-west span-99]
 <br>
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" >
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
 Displays the contents of the system or device memory without arguments, displays the system memory configuration.
 </span></p>
 @snapend
