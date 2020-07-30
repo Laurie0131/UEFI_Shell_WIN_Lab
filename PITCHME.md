@@ -573,12 +573,19 @@ In the shell, type HelloScript for the following result:
 <br>
 <br>
 <br>
+<br>
+<br>
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">FS0:/&gt;&nbsp;</font>helloscript.nsh<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>echo Hello World<br>&nbsp;&nbsp;Hello World<br>&nbsp;&nbsp;<font color="yellow">FS0:/&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
+@snapend
+
+@snap[south-west span-100]
 <br>
 <p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
-Close the Win emulation, type: "reset"
+Close the Win emulation, type: "reset"<br>
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:/&gt;&nbsp;</font> reset)  </font>&nbsp;&nbsp; </span>
 </span></p>
+<br>
+<br>
 @snapend
 
 
