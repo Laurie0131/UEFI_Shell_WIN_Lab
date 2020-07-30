@@ -147,9 +147,17 @@ We are not going to go all were these in detail but just to make you aware of th
 <p align="right"><span class="gold" >@size[1.1em](<b>Shell Help  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
-<span style="background-color: #000000"><font color="#FFFF00">&nbsp;
-<font face="Consolas">Shell&gt;</font></font><font color="#FFFFFF"><font face="Consolas"> 
-help -b</font>&nbsp; </font></span>
+@snap[north-west span-30]
+<br>
+<br>
+@box[bg-black text-white  rounded](<p align="left" style="line-height:60%"><span style="font-size:0.6em; font-family:Consolas;" >
+&nbsp;
+<font color="yellow">
+Shell&gt;</font>
+help -b
+<br>&nbsp;
+</span></p>)
+@snapend
 
 
 
