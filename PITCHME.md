@@ -580,11 +580,10 @@ In the shell, type HelloScript for the following result:
 
 @snap[south-west span-100]
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+<p style="line-height:70%" align="left" ><span style="font-size:0.7em;" ><br>
 Close the Win emulation, type: "reset"<br><br>
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:/&gt;&nbsp;</font> reset)  </font>&nbsp;&nbsp; </span>
 </span></p>
-<br>
 <br>
 <br>
 @snapend
@@ -601,9 +600,19 @@ HelloScript.nsh
 
 Close - at the shell prompt type : reset
 
----?image=/assets/images/slides/Slide24.JPG
+---?image=/assets/images/slides/Slide23.JPG
 @title[UEFI Shell Nested Scripts ]
-### <p align="right"><span class="gold" >UEFI Shell Nested Scripts </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>UEFI Shell Nested Scripts </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:70%" align="left" ><span style="font-size:0.7em;" ><br>
+Copy the Scripts from the <font face="Consolas">/FW/LabSampleCode/ShellScripts</font> to the runtime directory  <font face="Consolas">C:/FW/edk2-ws/Build/EmulatorX64/DEBUG_VS20<font color="yellow"><i>nn</i>x86</font></font>/X64
+</span></p>
+@snapend
+
 
 
 
