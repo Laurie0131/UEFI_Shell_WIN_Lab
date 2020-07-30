@@ -298,8 +298,8 @@ Note:
 <p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
 Displays the UEFI driver list.
 <br><br>
-To get a description of teach section in the list, Use:<br>
-<span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="yellow">&nbsp;&nbsp;Shell&gt;</font> drivers -?)  </font>&nbsp;&nbsp; </span>
+@size[.8em](To get a description of teach section in the list, Use:)<br>
+<span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">&nbsp;&nbsp;Shell&gt;</font> drivers -?)  </font>&nbsp;&nbsp; </span>
 <br><br>"`q`" to quit
 </span></p>
 @snapend
