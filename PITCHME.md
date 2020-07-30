@@ -520,12 +520,12 @@ Benefits: These files allow users to simplify routine or repetitive tasks. <br>
 At the shell prompt, type "`fs0:`"
 </span></p>
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font><br>&nbsp;</span></p>)
-<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" >
+<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" >
 <b>Type :</b>
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](&nbsp;echo Hello World)  </font>&nbsp;&nbsp; </span>
 </span></p>
 <br>
-<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br><br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
 <font color="#A8ff60"><br>
 Press "F2"<br>
 Enter<br>
@@ -552,9 +552,35 @@ Type : echo “Hello World“
 
 Press “F2”- Enter Press “F3” to exit
 
----?image=/assets/images/slides/Slide23.JPG
+---
 @title[Hello World Script]
-### <p align="right"><span class="gold" >Hello World Script</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Hello World Script </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+In the shell, type HelloScript for the following result:
+</span></p>
+@snapend
+
+
+
+
+@snap[north-west span-33]
+<br>
+<br>
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">FS0:/&gt;&nbsp;</font>helloscript.nsh<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>echo Hello World<br>&nbsp;&nbsp;Hello World<br>&nbsp;&nbsp;<font color="yellow">FS0:/&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Close the Win emulation, type: "reset"
+<span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:/&gt;&nbsp;</font> reset)  </font>&nbsp;&nbsp; </span>
+</span></p>
+@snapend
+
 
 
 Note:
