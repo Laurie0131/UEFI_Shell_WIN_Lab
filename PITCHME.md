@@ -292,15 +292,15 @@ Note:
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>drivers -b <br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-40]
+@snap[north-east span-35]
 <br>
 <br>
-<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>&nbsp;
+<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
 Displays the UEFI driver list.
 <br><br>
 To get a description of teach section in the list, Use:<br>
 <span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="yellow">&nbsp;&nbsp;Shell&gt;</font> drivers -?)  </font>&nbsp;&nbsp; </span>
-<br><br>"q" to quit
+<br><br>"`q`" to quit
 </span></p>
 @snapend
 
