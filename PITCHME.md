@@ -127,7 +127,7 @@ $> RunEmulator.bat
 @snap[west span-30]
 <br>
 <br>
-@box[bg-grey-05 text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em; font-family:Consolas;" >&nbsp; help<br>&nbsp;  mm<br>&nbsp; mem<br>&nbsp; memmap<br>&nbsp; drivers<br>&nbsp; devices<br>&nbsp; devtree<br>&nbsp; dh<br>&nbsp; Load<br>&nbsp; dmpstore<br>&nbsp; stall<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white  rounded  my-box-pad2](<p align="left" style="line-height:80%"><span style="font-size:0.8em; font-family:Consolas;" >&nbsp; help<br>&nbsp;  mm<br>&nbsp; mem<br>&nbsp; memmap<br>&nbsp; drivers<br>&nbsp; devices<br>&nbsp; devtree<br>&nbsp; dh<br>&nbsp; Load<br>&nbsp; dmpstore<br>&nbsp; stall<br>&nbsp;</span></p>)
 @snapend
 
 @snap[east span-65]
@@ -150,15 +150,10 @@ We are not going to go all were these in detail but just to make you aware of th
 @snap[north-west span-30]
 <br>
 <br>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" ><br>&nbsp;</span></p>)
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>help -b<br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-west span-30]
-<br>
-<br>
-<p align="left" style="line-height:50%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>
-help -b<br>&nbsp;</span></p>
-@snapend
+
 
 
 Note:
