@@ -374,7 +374,7 @@ Note:
 @snap[north-west span-100]
 <br>
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.78em;" ><br>
+<p style="line-height:70%" align="left" ><span style="font-size:0.75em;" ><br>
 Dump Handle - Displays the device handles associated with UEFI drivers
 </span></p>
 @snapend
@@ -387,7 +387,7 @@ Dump Handle - Displays the device handles associated with UEFI drivers
 <br>
 <br>
 <p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
-Also try `dh -d` with handle number to get more information on that handle.
+Also try "` dh -d`" with handle number to get more information on that handle.
 </span></p>
 @snapend
 
@@ -405,7 +405,7 @@ Also try dh -d with handle number to get more information on that handle.
 @snap[north-west span-33]
 <br>
 <br>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>load -b <br>&nbsp;</span></p>)
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>load -? -b <br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-west span-100]
@@ -464,8 +464,6 @@ Note:
 <p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
 Stalls the operation for a specified number of microseconds
 </span></p>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:40%"><span style="font-size:0.5em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
-
 @snapend
 
 @snap[north span-35]
@@ -475,7 +473,7 @@ Stalls the operation for a specified number of microseconds
 <br>
 <br>
 <br>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:35%"><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:35%"><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<font color="cream">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
 
 @snapend
 Note:
