@@ -337,26 +337,83 @@ For the Windows Emulation there is not that many devices
 Note:
 
 
----?image=/assets/images/slides/Slide15.JPG
+---?image=/assets/images/slides/Slide14.JPG
 @title[Shell devtree Command ]
-### <p align="right"><span class="gold" >Shell "devtree"</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Devtree`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>devtree -b <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Displays tree of devices currently managed by UEFI drivers.
+</span></p>
+@snapend
 
 
 Note:
 
 
----?image=/assets/images/slides/Slide16.JPG
+---?image=/assets/images/slides/Slide15.JPG
 @title[Shell handle Database Command ]
-### <p align="right"><span class="gold" >Shell handle database - "dh"</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Devtree`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>dh -b <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Dump Handle - Displays the device handles associated with UEFI drivers
+</span></p>
+@snapend
+
+
+@snap[north-east span-33]
+<br>
+<br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
+Also try `dh -d` with handle number to get more information on that handle.
+</span></p>
+@snapend
 
 
 Note:
 
 Also try dh -d with handle number to get more information on that handle.
 
----?image=/assets/images/slides/Slide18.JPG
+---?image=/assets/images/slides/Slide16.JPG
 @title[Shell Load Command ]
-### <p align="right"><span class="gold" >Shell "load"</span></p>
+
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Load`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>load -b <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Loads a UEFI driver into memory
+</span></p>
+@snapend
+
+
 
 
 Note:
@@ -364,14 +421,49 @@ Note:
 
 ---?image=/assets/images/slides/Slide17.JPG
 @title[Shell Load Command ]
-### <p align="right"><span class="gold" >Shell "Dmpstore"</span></p>
+
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Dmpstore`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>dmpstore -all -b <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Display the contents of the NVRAM variables
+</span></p>
+@snapend
+
+
 
 
 Note:
 
----?image=/assets/images/slides/Slide19.JPG
+---
 @title[Shell Stall Command ]
-### <p align="right"><span class="gold" >Shell "stall"</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Stall`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+Stalls the operation for a specified number of microseconds
+</span></p>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:40%"><span style="font-size:0.5em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
+
+@snapend
 
 
 Note:
