@@ -374,16 +374,19 @@ Note:
 @snap[north-west span-100]
 <br>
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.78em;" ><br>
 Dump Handle - Displays the device handles associated with UEFI drivers
 </span></p>
 @snapend
 
 
-@snap[north-east span-33]
+@snap[north-east span-43]
 <br>
 <br>
-<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
+<br>
+<br>
+<br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
 Also try `dh -d` with handle number to get more information on that handle.
 </span></p>
 @snapend
@@ -425,7 +428,7 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Dmpstore`"  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
-@snap[north-west span-33]
+@snap[north-west span-35]
 <br>
 <br>
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>dmpstore -all -b <br>&nbsp;</span></p>)
@@ -465,7 +468,16 @@ Stalls the operation for a specified number of microseconds
 
 @snapend
 
+@snap[north span-35]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:35%"><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
 
+@snapend
 Note:
 
 
