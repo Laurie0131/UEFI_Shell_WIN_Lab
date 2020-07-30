@@ -292,7 +292,7 @@ Note:
 @box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>drivers -b <br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-35]
+@snap[north-east span-33]
 <br>
 <br>
 <p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
