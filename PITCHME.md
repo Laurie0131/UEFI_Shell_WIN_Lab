@@ -64,7 +64,7 @@ Note:
 ---?image=/assets/images/slides/Slide4.JPG
 @title[Invoke Win Emulation ]
 <p align="right"><span class="gold" ><b>Invoke Win Emulation</b></span></p>
-@snap[north-west span-51 ]
+@snap[north-west span-55 ]
 <br>
 <br>
 <br>
@@ -76,7 +76,7 @@ Note:
 <span style="font-size:0.9em" >From the VS command Prompt</span>
 
 
-@snap[north-west span-52 ]
+@snap[north-west span-54 ]
 <br>
 <br>
 <br>
@@ -85,7 +85,7 @@ Note:
  &gt; CD C:\FW\edk2-ws<br>&nbsp;&nbsp;
  <font color="#A8ff60"> &num; set up PACKAGES_PATH </font><br>&nbsp;&nbsp;
  &gt; set WORKSPACE=%CD% <br>&nbsp;&nbsp;
- &gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc <br>&nbsp;&nbsp;
+ &gt; @size[.8em](set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc )<br>&nbsp;&nbsp;
  &gt; cd edk2 <br>&nbsp;&nbsp;
  &gt; edksetup Rebuild <br>&nbsp;&nbsp;
  &gt; Build -a X64 <br>&nbsp;&nbsp;
