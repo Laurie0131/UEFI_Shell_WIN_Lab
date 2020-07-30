@@ -665,7 +665,7 @@ From the VS command Prompt<br>
 <br>
 At the Shell prompt Type:
 </span></p>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>Script1<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font><br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>Edit Script1.nsh<br><br>&nbsp;</span></p>)
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">&nbsp;&nbsp;FS0:\\&gt;&nbsp;</font>Script1<br><font color="yellow">&nbsp;&nbsp;FS0:\\&gt;&nbsp;</font><br><font color="yellow">&nbsp;&nbsp;FS0:\\&gt;&nbsp;</font>Edit Script1.nsh<br><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -698,7 +698,7 @@ Remove the “#” on the first line<br>
 <br>
 <b>Press "F2"<br>
 Enter<br>
-Press "F3" to exit<br>
+Press "F3" to exit<br><br>
 Type<br> 
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:\\&gt;&nbsp;</font> Script1)  </font>&nbsp;&nbsp; </span>
 </span></p>
@@ -721,7 +721,7 @@ Note:
 <BR>
 ### <p align="center"><span class="gold"   >Summary </span></p><br>
 
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (Nt32 Emulation)</span><br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (Windows Emulation)</span><br><br>
  @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Scripts</span> <br>
  
@@ -769,7 +769,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY 
 OF SUCH DAMAGE.
 
-Copyright (c) 2018, Intel Corporation. All rights reserved.
+Copyright (c) 2020, Intel Corporation. All rights reserved.
 **/
 
 ```
