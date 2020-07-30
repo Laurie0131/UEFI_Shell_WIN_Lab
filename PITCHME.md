@@ -609,7 +609,7 @@ Close - at the shell prompt type : reset
 <br>
 <br>
 <p style="line-height:70%" align="left" ><span style="font-size:0.7em;" ><br>
-Copy the Scripts from the <font face="Consolas">/FW/LabSampleCode/ShellScripts</font> to the runtime directory  <font face="Consolas">C:/FW/edk2-ws/Build/EmulatorX64/DEBUG_VS20<font color="yellow"><i>nn</i>x86</font></font>/X64
+Copy the Scripts from the <font face="Consolas">/FW/LabSampleCode/ShellScripts</font> to the runtime directory @size[.8em](<font face="Consolas">C:/FW/edk2-ws/Build/EmulatorX64/DEBUG_VS20<font color="yellow"><i>nn</i>x86</font></font>/X64)
 </span></p>
 @snapend
 
