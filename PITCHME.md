@@ -178,7 +178,7 @@ To exit, this emulation simply type: “reset”
 @snap[north-west span-99]
 <br>
 <br>
-<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br><br>&nbsp;
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>&nbsp;
 Displays the memory map maintained by the UEFI environment</span></p>
 @snapend
 
