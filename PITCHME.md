@@ -165,7 +165,7 @@ To exit, this emulation simply type: “reset”
 
 ---?image=/assets/images/slides/Slide8.JPG
 @title[Shell MemMap Command help ]
-<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`memmap`"  </b>)</span><br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Memmap`"  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 
@@ -254,7 +254,7 @@ Because the Emulator is a Windows Application and trying to access location 00 w
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Shell mem Command ]
-<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`mem`"  </b>)</span><br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Mem`"  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[north-west span-33]
@@ -281,9 +281,28 @@ Displays the contents of the system or device memory without arguments, displays
 Note:
 
 
----?image=/assets/images/slides/Slide13.JPG
+---?image=/assets/images/slides/Slide12.JPG
 @title[Shell drivers Command ]
-### <p align="right"><span class="gold" >Shell "drivers"</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`Drivers`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>drivers -b <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-40]
+<br>
+<br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>&nbsp;
+Displays the UEFI driver list.
+<br><br>
+To get a description of teach section in the list, Use:<br>
+<span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="yellow">&nbsp;&nbsp;Shell&gt;</font> drivers -?)  </font>&nbsp;&nbsp; </span>
+<br><br>"q" to quit
+</span></p>
+@snapend
 
 
 Note:
