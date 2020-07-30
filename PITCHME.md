@@ -246,12 +246,30 @@ Do <font color="red"><b>not</b></font> try (below) in Win Emulator. Because the 
 
 Note:
 
+Why doesn’t it work on windows emulator mm 0?
 
----?image=/assets/images/slides/Slide12.JPG
-@title[Shell memmap Command ]
-### <p align="right"><span class="gold" >Shell "memmap"</span></p>
+Because the Emulator is a Windows Application and trying to access location 00 will force the Windows app to not allow your application to access location 0
 
 
+
+---?image=/assets/images/slides/Slide11.JPG
+@title[Shell mem Command ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "`mem`"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>mem <br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-99]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br>&nbsp;
+Displays the contents of the system or device memory without arguments, displays the system memory configuration.
+</span></p>
+@snapend
 Note:
 
 
