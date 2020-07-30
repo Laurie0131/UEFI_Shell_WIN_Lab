@@ -147,10 +147,10 @@ We are not going to go all were these in detail but just to make you aware of th
 <p align="right"><span class="gold" >@size[1.1em](<b>Shell Help  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
-@snap[north-west span-30]
+@snap[north-west span-33]
 <br>
 <br>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>help -b<br>&nbsp;</span></p>)
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>help -b<br>&nbsp;</span></p>)
 @snapend
 
 
@@ -163,9 +163,24 @@ And what you will see is the list of all the shell commands built into this plat
 To exit, this emulation simply type: “reset”
 
 
----?image=/assets/images/slides/Slide9.JPG
-@title[Shell mm Command help ]
-### <p align="right"><span class="gold" >Shell "mm"</span></p>
+---?image=/assets/images/slides/Slide8.JPG
+@title[Shell MemMap Command help ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Shell "memmap"  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+
+@snap[north-west span-33]
+<br>
+<br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>memmap<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-99]
+<br>
+<br>
+<p style="line-height:80%" align="left" ><span style="font-size:0.8em;" ><br><br>&nbsp;
+Displays the memory map maintained by the UEFI environment</span></p>
+@snapend
 
 
 Note:
