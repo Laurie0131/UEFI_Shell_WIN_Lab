@@ -693,12 +693,12 @@ FS0:\> Edit Script1.nsh
 <br>
 <br>
 <p style="line-height:70%" align="left" ><span style="font-size:0.7em;" ><br>
-Remove the “#” on the first line<br>
+Remove the "&num;" on the first line<br>
 <br>
 <br>
 <b>Press "F2"<br>
 Enter<br>
-Press "F3" to exit<br><br>
+Press "F3" to exit</b><br><br>
 Type<br> 
 <span style="background-color: #000000"><font face="Consolas">@size[.67em](<font color="yellow">FS0:\\&gt;&nbsp;</font> Script1)  </font>&nbsp;&nbsp; </span>
 </span></p>
