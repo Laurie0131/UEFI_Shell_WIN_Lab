@@ -273,8 +273,8 @@ Displays the contents of the system or device memory without arguments, displays
 
 
 @snap[east span-28]
-<p style="line-height:65%" align="left" ><span style="font-size:0.7em;" >
-<font color="yellow">UEFI System  Table Pointer</font>
+<p style="line-height:65%" align="left" ><span style="font-size:0.7em;" ><br>
+<font color="yellow">UEFI System<br>  Table Pointer</font>
 </span></p>
 @snapend
 
