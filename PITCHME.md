@@ -519,14 +519,14 @@ Benefits: These files allow users to simplify routine or repetitive tasks. <br>
 <p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
 At the shell prompt, type "`fs0:`"
 </span></p>
-@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">FS0:/;&gt;&nbsp;</font>&nbsp;</span></p>)
-<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:42%"><span style="font-size:0.46em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">&nbsp;&nbsp;FS0:/&gt;&nbsp;</font>&nbsp;</span></p>)
+<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" >
 <b>Type :</b>
-<span style="background-color: #000000"><font face="Consolas">@size[.67em](echo Hello World)  </font>&nbsp;&nbsp; </span>
+<span style="background-color: #000000"><font face="Consolas">@size[.67em](&nbsp;echo Hello World)  </font>&nbsp;&nbsp; </span>
 </span></p>
 <br>
 <p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
-<font color="#A8ff60">
+<font color="#A8ff60"><br>
 Press "F2"<br>
 Enter<br>
 Press "F3" to exit<br>
