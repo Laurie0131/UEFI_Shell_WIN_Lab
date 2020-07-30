@@ -473,7 +473,7 @@ Stalls the operation for a specified number of microseconds
 <br>
 <br>
 <br>
-@box[bg-grey-05 text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:35%"><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<font color="cream">Shell&gt;&nbsp;</font>stall 10000000<br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:35%"><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font><font color="gray">stall 10000000</font><br>&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>_<br>&nbsp;</span></p>)
 
 @snapend
 Note:
