@@ -488,9 +488,10 @@ Note:
 
 ---
 @title[UEFI Shell Scripts ]
-### <p align="right"><span class="gold" >UEFI Shell Scripts</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>UEFI Shell Scripts  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
 <br>
-<span style="font-size:0.9em" >The UEFI Shell can execute commands from a file, which is called a batch script file (<font face="Courier New" color="yellow"><b>.nsh</b></font> files). </span>
+<span style="font-size:0.9em" >The UEFI Shell can execute commands from a file, which is called a batch script file (<font face="Consolas" color="yellow"><b>.nsh</b></font> files). </span>
 <br>
 <br>
 <span style="font-size:0.8em" ><font color="cyan"><b>Benefits:</b></font> These files allow users to simplify routine or repetitive tasks. <br>
@@ -506,9 +507,34 @@ Benefits: These files allow users to simplify routine or repetitive tasks. <br>
 - Allow branching and looping in a script. 
 - Allow users to control input and output and call other batch programs (known as script nesting). 
 
----?image=/assets/images/slides/Slide22.JPG
+---?image=/assets/images/slides/Slide21.JPG
 @title[Writing UEFI Shell Scripts]
-### <p align="right"><span class="gold" >Writing UEFI Shell Scripts </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Writing UEFI Shell Scripts  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+
+@snap[north-west span-55]
+<br>
+<br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
+At the shell prompt, type "`fs0:`"
+</span></p>
+@box[bg-black text-white  rounded  my-box-pad2 ](<p align="left" style="line-height:20%"><span style="font-size:0.56em; font-family:Consolas;" >&nbsp;&nbsp;<font color="yellow">Shell&gt;&nbsp;</font>fs0:<br><font color="yellow">FS0:&#8725;&gt;&nbsp;</font>&nbsp;</span></p>)
+<p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>
+<b>Type :</b>
+<span style="background-color: #000000"><font face="Consolas">@size[.67em](echo Hello World)  </font>&nbsp;&nbsp; </span>
+</span></p>
+<br>
+<br>
+<p style="line-height:67%" align="left" ><span style="font-size:0.67em;" ><br><br>
+At the shell prompt, type "`fs0:`"
+<font color="#A8ff60">
+Press "F2"<br>
+Enter<br>
+Press "F3" to exit<br>
+</span></p>
+@snapend
+
 
 Note:
 
