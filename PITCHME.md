@@ -228,10 +228,11 @@ Note:
 <p style="line-height:67%" align="left" ><span style="font-size:0.7em;" ><br><br>&nbsp;
 &ast;&ast;Pick a location from the MemMap command on Previous slide<br><br>
 <span style="background-color: #000000">
-&nbsp;&nbsp;<font face="Consolas">@size[.3em]( BS_Data    <font color="#FFFFcc">00000117FC9F5000</font>-00000117FCA1CFFF 0000000000000028 000000000000000F)</font> &nbsp;&nbsp; </span><br>
-MM in can display / modify any location <br><br>
-Do <font color="red"><b>not</b></font> try in Win Emulator. Because the emulator will crash.<br>
-<span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="#FFFF00">&nbsp;&nbsp;Shell&gt;</font> mm 0000)  </font>&nbsp;&nbsp; </span>
+&nbsp;&nbsp;<font face="Consolas">@size[.4em]( BS_Data    <font color="cyan">00000117FC9F5000</font>-00000117FCA1CFFF 0000000000000028 000000000000000F)</font> &nbsp;&nbsp; </span><br>
+MM can display / modify any location <br><br>
+Do <font color="red"><b>not</b></font> try (below) in Win Emulator. Because the emulator will crash.<br><br>
+<span style="background-color: #000000"><font face="Consolas">@size[.7em](<font color="yellow">&nbsp;&nbsp;Shell&gt;</font> mm 0000)  </font>&nbsp;&nbsp; </span>
+<br><br>"q" to quit
 </span></p>
 @snapend
 
